@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Django
+*.log
+*.pot
+*.pyc
+*.mo
+*.db
+db.sqlite3
+media/
+
+# If you want to keep media files in production but not in git, ignore whole folder
+# Comment this if you want to push sample media files
+/media/
+
+# Static files
+/staticfiles/
+/static/
+
+# Environment & configs
+.env
+venv/
+env/
+ENV/
+*.env
+
+# IDE & editor configs
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# OS generated
+.DS_Store
+Thumbs.db
+
+# Pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Coverage & test
+htmlcov/
+.tox/
+.coverage
+coverage.xml
+*.cover
+.pytest_cache/
+nosetests.xml
